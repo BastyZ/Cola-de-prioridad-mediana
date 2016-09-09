@@ -1,4 +1,4 @@
-
+//comment
 public class ColaPrioridadMediana {
 	double[] menores;
 	double[] mayores;
@@ -59,7 +59,7 @@ public class ColaPrioridadMediana {
 					largom++;
 				}
 			}
-			else if(largom < largoM){ //mayores es más largo
+			else if(largom < largoM){ //mayores es mï¿½s largo
 				if(numero <= mayores[0]){
 					menores = heapifyUpm(menores,numero);
 					largom++;
